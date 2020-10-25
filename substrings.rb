@@ -5,6 +5,7 @@ variable = "below"
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 
 #Check if value matches a word or sub words are in the  dictionary
+dictionary.select!{|value| variable.include?(value)}
 
 #Tally the number of matches found from the dictionary
 
