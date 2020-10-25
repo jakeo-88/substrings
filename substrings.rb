@@ -8,5 +8,5 @@ dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","o
 dictionary.select!{|value| variable.include?(value)}
 
 #Tally the number of matches found from the dictionary
-
+dictionary.tally
 #Print the total tally amount to the console
