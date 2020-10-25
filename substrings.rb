@@ -9,4 +9,3 @@ dictionary.select!{|value| variable.include?(value)}
 
 #Tally the number of matches found from the dictionary
 dictionary.tally
-#Print the total tally amount to the console
