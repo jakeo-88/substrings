@@ -25,4 +25,7 @@ dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","o
     end
 
 #Tally the number of matches found from the dictionary
-dictionary.tally
+word_count = new_array.reduce((Hash.new(0))) do |accumulator, iteration|
+    accumulator[iteration] += 1
+    accumulator
+  end
