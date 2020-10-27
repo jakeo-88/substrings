@@ -1,11 +1,11 @@
+#Create a variable to hold the dictionary array values 
+    dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
+
 #Create method
 def substrings variable, dictionary
 
     #Format first argument so all letters are lowercase
     variable.downcase!
-
-    #Create a variable to hold the dictionary array values 
-    dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 
     #Check if value matches a word or sub words are in the  dictionary
         
